@@ -1,4 +1,4 @@
-# Laravel Upload ImagesTo Amazon S3
+# Laravel Upload Images To Amazon S3
 
 ## How do I set this up?
 
@@ -43,6 +43,15 @@ FILESYSTEM_DRIVER=s3
 ```html
 php artisan migrate
 ```
+
+That’s all. Application is ready now.
+
+```html
+php artisan serve
+```
+
+Happy Coding :-)
+
 ### Screenshot upload image function
 
 ![Upload](https://github.com/chidang/laravel-aws-s3/blob/master/public/media/upload.png "Upload")
