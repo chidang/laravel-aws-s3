@@ -23,7 +23,7 @@ class Image extends Model
             [
                 'Bucket' => env('AWS_BUCKET'),
                 'Key'    => $this->path,
-                'ResponseContentDisposition' => 'attachment;'
+                // 'ResponseContentDisposition' => 'attachment;'
             ]
         );
 

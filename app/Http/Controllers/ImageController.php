@@ -8,7 +8,6 @@ use Illuminate\Support\Facades\Storage;
 
 class ImageController extends Controller
 {
-
     public function getImages()
     {
         return view('images')->with('images', Image::all());
